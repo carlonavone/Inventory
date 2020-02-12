@@ -16,7 +16,7 @@ Inventory::Inventory(string name, float price, int count)
 //This function decrements the stock of an item only if it is not already equal to 0
 void Inventory::sell()
 {
-  if(this.m_in_stock == 0)
+  if(this->m_in_stock == 0)
   {
     cout << "Sorry, that item is out of stock"<< endl;
   }
