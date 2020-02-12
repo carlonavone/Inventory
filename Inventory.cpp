@@ -26,7 +26,7 @@ void Inventory::sell()
   }
 }
 
-//THis Function allows an items values to be set
+//This Function allows an items values to be set for an inventory item
 ostream& operator<<(ostream& stream, const Inventory& item)
 {
   stream << item.m_name
