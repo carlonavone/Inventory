@@ -5,6 +5,7 @@
 using std::string;
 using std::ostream;
 using std::cout;
+using namespace std;
 
 //Constructor for Inventory Object
 Inventory::Inventory(string name, float price, int count)
