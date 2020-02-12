@@ -5,6 +5,7 @@
 using std::string;
 using std::ostream;
 
+//This class is meant to hold a name, price and an integer indicating if it is in stock. 
 class Inventory
 {
   private:
